@@ -16,6 +16,7 @@ const items = [
 const DrawerRouterContainer = ({ children }) => {
   const history = useHistory();
   const [ state, setState ] = React.useState(false);
+  
   const handleClick = () => setState(prev => !prev);
 
   const setSelectedItem = (pathName) => {

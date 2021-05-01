@@ -1,10 +1,6 @@
-const initialState = {
-  data: []
-}
+import { combineReducers } from 'redux';
+import productReducer from './product';
 
-export default function (state=initialState, { type, payload }) {
-  switch (type) {    
-    default:
-      return { ...state };
-  }
-}
+export const rootReducer = () => combineReducers({
+  productReducer,
+});

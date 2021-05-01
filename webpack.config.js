@@ -30,6 +30,9 @@ module.exports = {
       template: './public/index.html'               
     })
   ],
+  resolve: {
+    extensions: ['.js'],
+  },
   devServer: {
     historyApiFallback: true
   }
