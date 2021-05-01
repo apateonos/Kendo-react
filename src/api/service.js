@@ -18,6 +18,7 @@ const onError = (error) => {
 };
 
 export const get = (url, params) => {
+  console.log(baseURL+url);
   return axios
     .get(baseURL + url, {params})
     .then(onSuccess)

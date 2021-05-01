@@ -1,6 +1,7 @@
 import { GET_PRODUCT_LIST } from '../action/type';
 
 const initialState = {
+  toggle: false,
   data: []
 }
 
@@ -12,7 +13,7 @@ export default function (state=initialState, { type, payload }) {
     case GET_PRODUCT_LIST['SUCCESS']:
       return {
         ...state,
-        data: []
+        data: payload.data
       }
     
     case GET_PRODUCT_LIST['FAILURE']:

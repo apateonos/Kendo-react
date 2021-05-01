@@ -2,11 +2,11 @@ import * as React from 'react';
 import { useHistory, withRouter } from 'react-router-dom';
 import { Drawer, DrawerContent } from '@progress/kendo-react-layout';
 import { Button } from '@progress/kendo-react-buttons';
+import './DrawerRouterContainer.css';
 
 const items = [
   { text: 'Home', icon: 'k-i-inbox', selected: true, route: '/' },
   { separator: true },
-  { text: 'Notifications', icon: 'k-i-bell', route: '/notifications' },
   { text: 'Calendar', icon: 'k-i-calendar', route: '/calendar' },
   { separator: true },
   { text: 'Chart', icon: 'k-i-align-left-element', route: '/chart' },

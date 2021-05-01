@@ -34,6 +34,7 @@ module.exports = {
     extensions: ['.js'],
   },
   devServer: {
+    contentBase: path.join(__dirname, 'public'),
     historyApiFallback: true
   }
 }
