@@ -1,5 +1,5 @@
 {
-  "name": "react",
+  "name": "react-kendo-sus_02",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,9 +7,21 @@
     "start": "webpack-dev-server --mode development --open --hot",
     "build": "webpack --mode production"
   },
-  "author": "",
+  "author": "apateonos@gmail.com",
   "license": "ISC",
   "dependencies": {
+    "@progress/kendo-data-query": "^1.5.4",
+    "@progress/kendo-drawing": "^1.10.0",
+    "@progress/kendo-licensing": "^1.1.4",
+    "@progress/kendo-react-animation": "^4.5.0",
+    "@progress/kendo-react-data-tools": "^4.5.0",
+    "@progress/kendo-react-dateinputs": "^4.5.0",
+    "@progress/kendo-react-dropdowns": "^4.5.0",
+    "@progress/kendo-react-grid": "^4.5.0",
+    "@progress/kendo-react-inputs": "^4.5.0",
+    "@progress/kendo-react-intl": "^4.5.0",
+    "@progress/kendo-react-treeview": "^4.5.0",
+    "@progress/kendo-theme-default": "^4.37.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },
@@ -18,8 +30,10 @@
     "@babel/preset-env": "^7.13.15",
     "@babel/preset-react": "^7.13.13",
     "babel-loader": "^8.2.2",
+    "css-loader": "^5.2.4",
     "html-loader": "^2.1.2",
     "html-webpack-plugin": "^5.3.1",
+    "style-loader": "^2.0.0",
     "webpack": "^5.36.1",
     "webpack-cli": "^3.3.12",
     "webpack-dev-server": "^3.11.2"
