@@ -98,7 +98,7 @@ export default ({ onChange, state }) => {
         <div className="row mb-3">
           <div className="col-4">
             <div className="k-card">
-              <Chart style={{ height: 350 }}>
+              <Chart style={{ height: 300 }}>
                 <ChartTitle text="바 데이터" />
                 <ChartLegend position="top" orientation="horizontal" />
                 <ChartCategoryAxis>
@@ -120,7 +120,7 @@ export default ({ onChange, state }) => {
           </div>
           <div className="col-8">
             <div className="k-card">
-              <Chart style={{ height: 350 }}>
+              <Chart style={{ height: 300 }}>
                 <ChartTitle text="라인 데이터" />
                 <ChartLegend position="top" orientation="horizontal" />
                 <ChartCategoryAxis>
