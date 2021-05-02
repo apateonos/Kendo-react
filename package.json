@@ -20,10 +20,12 @@
     "@progress/kendo-react-dateinputs": "^4.5.0",
     "@progress/kendo-react-dialogs": "^4.5.0",
     "@progress/kendo-react-dropdowns": "^4.5.0",
+    "@progress/kendo-react-excel-export": "^4.5.0",
     "@progress/kendo-react-grid": "^4.5.0",
     "@progress/kendo-react-inputs": "^4.5.0",
     "@progress/kendo-react-intl": "^4.5.0",
     "@progress/kendo-react-layout": "^4.5.0",
+    "@progress/kendo-react-pdf": "^4.5.0",
     "@progress/kendo-react-treeview": "^4.5.0",
     "@progress/kendo-theme-default": "^4.37.0",
     "axios": "^0.21.1",
@@ -31,7 +33,8 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-redux": "^7.2.4",
-    "redux-saga": "^1.1.3"
+    "redux-saga": "^1.1.3",
+    "styled-components": "^5.2.3"
   },
   "devDependencies": {
     "@babel/core": "^7.13.16",

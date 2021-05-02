@@ -7,14 +7,14 @@ import './DrawerRouterContainer.css';
 const items = [
   { text: 'Home', icon: 'k-i-inbox', selected: true, route: '/' },
   { separator: true },
-  { text: 'Calendar', icon: 'k-i-calendar', route: '/calendar' },
-  { separator: true },
-  { text: 'Chart', icon: 'k-i-align-left-element', route: '/chart' },
-  { text: 'Detail', icon: 'k-i-file-txt', route: '/detail' }
+  //{ text: 'Calendar', icon: 'k-i-calendar', route: '/calender' },
+  //{ separator: true },
+  { text: 'Table', icon: 'k-i-file-txt', route: '/product' }
 ];
 
 const DrawerRouterContainer = ({ children }) => {
   const history = useHistory();
+  const wrapperRef = React.useRef();
   const [ state, setState ] = React.useState(false);
   
   const handleClick = () => setState(prev => !prev);
@@ -35,7 +35,7 @@ const DrawerRouterContainer = ({ children }) => {
     <>
       <div className="custom-toolbar">
         <Button icon="menu" look="flat" onClick={handleClick} />
-        <span className="main-box">SUS 02</span>
+        <span style={{ marginRight: "5px" }}className="main-box">매장 관리</span>
       </div>
       <Drawer
         expanded={state}

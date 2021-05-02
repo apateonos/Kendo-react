@@ -3,3 +3,6 @@
   padding: 0;
   margin: 0;
 }
+.k-grid th, .k-grid td{
+  text-align: center;
+}

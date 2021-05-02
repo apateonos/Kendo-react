@@ -8,9 +8,7 @@ export default () => {
 
   useEffect(() => {
     dispatch(getProductListApi.request());
-  })
+  }, []);
 
-  return (
-    <Route />
-  )
+  return <Route />
 }

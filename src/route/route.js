@@ -1,7 +1,7 @@
 import React from 'react';
 import { HashRouter as Router, Route, Switch } from 'react-router-dom';
 import DrawerRouterContainer from './DrawerRouterContainer';
-import { Home, Chart, Detail } from '../pages/index';
+import { Home, Product } from '../pages/index';
 
 export default () => {
   return (
@@ -9,8 +9,7 @@ export default () => {
       <DrawerRouterContainer>
         <Switch>
           <Route exact path = "/" component={Home} />
-          <Route exact path = "/chart" component={Chart} />
-          <Route exact path = "/detail" component={Detail} />
+          <Route exact path = "/product" component={Product} />
         </Switch>
       </DrawerRouterContainer>
     </Router>

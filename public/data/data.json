@@ -1,9 +1,0 @@
-{
-  "data": [
-    {"date": "2021-01-01", "product_quantity": 532, "additional_products": 25, "changed_products": 152},
-    {"date": "2021-01-02", "product_quantity": 552, "additional_products": 20, "changed_products": 127},
-    {"date": "2021-01-03", "product_quantity": 562, "additional_products": 10, "changed_products": 83},
-    {"date": "2021-01-04", "product_quantity": 592, "additional_products": 33, "changed_products": 25},
-    {"date": "2021-01-05", "product_quantity": 610, "additional_products": 15, "changed_products": 93}
-  ]
-}
